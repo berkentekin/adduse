@@ -33,4 +33,4 @@ for category in os.listdir(root):
                 exit()
     except NotADirectoryError:
             continue
-raise Exception("Package not found.")
+raise Exception("Package not found in repositories.")
